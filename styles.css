@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "Kaushan Script", cursive;
+}
+body {
+  text-align: center;
+  background-color: #283149;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 5rem 0;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #44333b;
+  text-shadow: 3px 0 #ccc;
+}
+
+.set buton {
+  background-size: cover;
+}
+
+.w {
+  background-image: url(images/tom1.png);
+}
+
+.a {
+  background-image: url(images/tom2.png);
+}
+
+.s {
+  background-image: url(images/tom3.png);
+}
+
+.d {
+  background-image: url(images/tom4.png);
+}
+
+.j {
+  background-image: url(images/snare.png);
+}
+
+.k {
+  background-image: url(images/crash.png);
+}
+
+.l {
+  background-image: url(images/kick.png);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.drum {
+  border: 10px solid#473438;
+  font-family: "Times New Roman", "Kaushan Script", cursive;
+  font-size: 5rem;
+  line-height: 1.5;
+  color: #473438;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 50%;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 1rem;
+  box-shadow: 10px 10px 0 0 black;
+  cursor: pointer;
+}
+
+.btnClickStyle {
+  border-color: #e29d64;
+  opacity: 0.3;
+  box-shadow: none;
+}
+
+footer {
+  color: #dbedf3;
+  text-shadow: 5px 0 #000000;
+}
